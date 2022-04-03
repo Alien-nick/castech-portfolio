@@ -1,4 +1,4 @@
-<footer class="text-center dark:text-white bg-white dark:bg-gray-900">
+<footer class="text-center dark:text-white dark:bg-slate-800">
     <div class="container">
         <div class="flex justify-center mb-2 mt-4">
             <h4 class="mt-4 text-2xl font-bold leading-tight text-gray-800 dark:text-gray-100">Follow Us</h4>
@@ -214,7 +214,7 @@
       </div>
     </div>
   
-    <div class="text-center text-gray-700 p-4 bg-white dark:bg-gray-900 dark:text-white">
+    <div class="text-center text-gray-700 p-4 dark:bg-slate-800 dark:text-white">
       © 2021 Copyright:
       <a class="text-gray-800 dark:text-white" href="https://tailwind-elements.com/">Cassini Technologies</a>
     </div>
