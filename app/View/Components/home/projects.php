@@ -5,7 +5,7 @@ namespace App\View\Components\home;
 use Illuminate\View\Component;
 use Illuminate\Support\Arr;
 
-class Project extends Component
+class projects extends Component
 {
 
     public array $items = [];
@@ -60,6 +60,6 @@ class Project extends Component
      */
     public function render()
     {
-        return view('components.home.project');
+        return view('components.home.projects');
     }
 }
