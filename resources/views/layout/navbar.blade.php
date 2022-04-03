@@ -31,7 +31,7 @@
           >
             <ul class="block lg:flex lg:items-center">
               @foreach($navigationItems as $item)
-                <x-layout.navbar-item href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
+                <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
               @endforeach
               <a href="#" id="theme-toggle" class="text-xs font-medium text-dark py-2 flex hover:text-primary dark:text-white dark:font-bold lg:inline-flex lg:ml-6 xl:ml-12">
                 <svg
