@@ -19,7 +19,7 @@
             </p>
             <ul class="flex flex-wrap items-center">
               <li>
-                <x-button-link href="#portfolio" variant="primary" class="rounded-lg">
+                <x-button-link href="#projects" variant="primary" class="rounded-lg">
                   Our Projects
                 </x-button-link>
               </li>
