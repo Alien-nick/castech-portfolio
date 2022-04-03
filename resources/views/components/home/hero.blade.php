@@ -1,11 +1,11 @@
 <!-- ====== Hero Section Start -->
-<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-slate-800">
+<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-gray-900">
     <div class="container">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full lg:w-5/12 px-4">
           <div class="hero-content">
             <h1
-              class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug"
+              class="text-dark dark:text-gray-200 font-bold text-2xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug"
             >
               We are Castech. <br/>
               <h3 class="text-dark dark:text-gray-200 font-bold text-2xl sm:text-[31px] lg:text-[30px] xl:text-[31px]"> We evolve <span class="rounded-md text-amber-600">Technology.</span> </h3>
