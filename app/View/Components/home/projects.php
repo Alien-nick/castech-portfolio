@@ -5,7 +5,7 @@ namespace App\View\Components\home;
 use Illuminate\View\Component;
 use Illuminate\Support\Arr;
 
-class projects extends Component
+class Projects extends Component
 {
 
     public array $items = [];
