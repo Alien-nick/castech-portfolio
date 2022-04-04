@@ -58,8 +58,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'branding' "
-            :class="showCards == 'branding' ? activeClasses : inactiveClasses "
+            @click="showCards = 'Laravel' "
+            :class="showCards == 'Laravel' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -78,8 +78,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'design' "
-            :class="showCards == 'design' ? activeClasses : inactiveClasses "
+            @click="showCards = 'Flutter' "
+            :class="showCards == 'Flutter' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -98,8 +98,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'marketing' "
-            :class="showCards == 'marketing' ? activeClasses : inactiveClasses "
+            @click="showCards = 'Oracle Apex' "
+            :class="showCards == 'Oracle Apex' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -118,8 +118,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'development' "
-            :class="showCards == 'development' ? activeClasses : inactiveClasses "
+            @click="showCards = 'iOS' "
+            :class="showCards == 'iOS' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -138,8 +138,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'development' "
-            :class="showCards == 'development' ? activeClasses : inactiveClasses "
+            @click="showCards = 'Android' "
+            :class="showCards == 'Android' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -158,8 +158,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'development' "
-            :class="showCards == 'development' ? activeClasses : inactiveClasses "
+            @click="showCards = 'PHP' "
+            :class="showCards == 'PHP' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -178,8 +178,8 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
         </li>
         <li class="mb-1">
           <button
-            @click="showCards = 'development' "
-            :class="showCards == 'development' ? activeClasses : inactiveClasses "
+            @click="showCards = 'Wordpress' "
+            :class="showCards == 'Wordpress' ? activeClasses : inactiveClasses "
             class="
               inline-block
               py-2
@@ -285,7 +285,7 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
       </div>
     </div>
     <div
-      :class="showCards == 'all' || showCards == 'Wordpress' || 'PHP' ? 'block' : 'hidden' "
+      :class="showCards == 'all' || showCards == 'Wordpress' || showCards == 'PHP' ? 'block' : 'hidden' "
       class="w-full md:w-1/2 xl:w-1/3 px-4"
     >
       <div class="relative mb-12">
@@ -327,7 +327,7 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
       </div>
     </div>
     <div
-      :class="showCards == 'all' || showCards == 'Laravel' || 'PHP' ? 'block' : 'hidden' "
+      :class="showCards == 'all' || showCards == 'Laravel' || showCards == 'PHP' ? 'block' : 'hidden' "
       class="w-full md:w-1/2 xl:w-1/3 px-4"
     >
       <div class="relative mb-12">
@@ -347,7 +347,7 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
             Laravel, PHP
           </span>
           <h3 class="font-bold text-xl text-dark mb-4 dark:text-white">
-            A Laravel Microservice that was build to showcase covidcase statuses around the world.
+            A Laravel Microservice that was built to showcase covidcase statuses around the world.
           </h3>
           <a
             href="https://youtu.be/38fJX4oj9tk"
@@ -369,7 +369,7 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
       </div>
     </div>
     <div
-      :class="showCards == 'all' || showCards == 'Oracle Apex' || 'Flutter' || 'iOS' || 'Android'  ? 'block' : 'hidden' "
+      :class="showCards == 'all' || showCards == 'Oracle Apex' || showCards == 'Flutter' || showCards == 'iOS' || showCards == 'Android'  ? 'block' : 'hidden' "
       class="w-full md:w-1/2 xl:w-1/3 px-4"
     >
     <div class="relative mb-12">
