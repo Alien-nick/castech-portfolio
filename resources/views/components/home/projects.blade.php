@@ -201,7 +201,7 @@ class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
   </div>
   <div class="flex flex-wrap -mx-4">
     <div
-      :class="showCards == 'all' || showCards == 'Flutter' || 'Laravel' || 'Oracle Apex' || 'iOS' || 'Android' || 'PHP' ? 'block' : 'hidden' "
+      :class="showCards == 'all' || showCards == 'Flutter' || showCards == 'Laravel' || showCards == 'Oracle Apex' || showCards == 'iOS' || showCards == 'Android' || showCards == 'PHP' ? 'block' : 'hidden' "
       class="w-full md:w-1/2 xl:w-1/3 px-4"
     >
       <div class="relative mb-12">
