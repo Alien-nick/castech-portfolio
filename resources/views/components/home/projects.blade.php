@@ -8,7 +8,7 @@ x-data="
     inactiveClasses: 'text-body-color hover:bg-primary hover:text-white',
   }
 "
-class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]"
+class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] bg-white dark:bg-gray-900"
 >
 <div class="container">
   <div class="flex flex-wrap -mx-4">
