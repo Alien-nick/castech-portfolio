@@ -708,6 +708,9 @@ input:checked ~ .dot .active {
 .mb-11 {
   margin-bottom: 2.75rem;
 }
+.-mt-20 {
+  margin-top: -5rem;
+}
 .block {
   display: block;
 }
@@ -1114,6 +1117,10 @@ input:checked ~ .dot .active {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 .pr-4 {
   padding-right: 1rem;
@@ -1788,6 +1795,11 @@ input#checkboxLabelFive:checked ~ .box {
 .dark .dark\:bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:font-bold {
