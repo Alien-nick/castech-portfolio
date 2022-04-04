@@ -1,5 +1,5 @@
 <!-- ====== Testimonials Section Start -->
-<section class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-slate-600" id="testimony">
+<section class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] dark:bg-gray-800 bg-slate-600" id="testimony">
     <div class="container">
        <div
           x-data="
@@ -11,7 +11,7 @@
           }
           "
           >
-          <div class="flex flex-wrap justify-center relative bg-slate-600">
+          <div class="flex flex-wrap justify-center relative dark:bg-gray-800">
             <div class="container justify-center">
                 <div class="flex justify-center mb-2 mt-4">
                     <h4 class="mt-4 text-2xl font-bold leading-tight dark:text-gray-100 text-white">Testimony</h4>    
