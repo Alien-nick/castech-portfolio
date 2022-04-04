@@ -52,7 +52,7 @@
                 <span class="text-amber-500 font-bold">Ethnicity</span> and <span class="text-green-500 font-bold">Gender</span>. <br />
                 We believe in Equality ❤️. <br />
               </p>
-            <x-button-link href="https://youtube.com/thecodeholic" variant="red" target="_blank">
+            <x-button-link href="#" variant="red" target="_blank">
               View Team
             </x-button-link>
           </div>
